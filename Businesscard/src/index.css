@@ -1,0 +1,99 @@
+body{
+margin: 0px;
+background-color: #23252C;
+font-family: 'Inter';
+color: white;
+}
+
+
+
+
+.person-img {
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Profile-data > h1,p,small{
+    display: grid;
+    justify-content: center;
+}
+
+
+.Profile-data > h1{
+    margin: 0px;
+}
+
+.Profile-data > p{
+    margin-top: 1%;
+    color: #F3BF99;
+}
+
+.Email, .Linkedin {
+    background-color: white;
+    height: 34px;
+    width: 115px;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.Email > img , .Linkedin > img{
+    padding-right: 6px;
+    height: 20px;
+    width: 23px;
+    
+}
+
+.Linkedin{
+    background-color: #5093E2;
+    color: white;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.info {
+    margin: 0px;
+   background-color: #1A1B21;
+   width: 317px;
+   height: auto;
+   
+}
+
+.Profile-data > small, .content > small {
+    color: grey;
+}
+
+.content  {
+    margin: 25px;
+}
+
+.Hole {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 64px;
+    width: 317px;
+
+}
+
+.footer > img {
+    margin: 15px;
+    cursor: pointer;
+}
+
