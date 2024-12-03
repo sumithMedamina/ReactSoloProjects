@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter;
+  background-color: #E5E5E5;
+}
+
+.travel-journel{
+  display: grid;
+  justify-content: center;
+}
+
+.journel-header{
+  height: 55px;
+  width: 550px;
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.globe{
+  width: 34px;
+  height: 34px;
+  margin-right: 5px;
+}
+
+
+.img{
+  width: 145px;
+  height: 208px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.main-content{
+  width: 550px;
+  background-color: white;
+  display: flex;
+  padding-inline: 5px;
+  
+}
+
+.hole {
+  display: flex;
+  margin: 25px;  
+}
+
+.date{
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.links > a {
+  margin-left: 45px;
+}
+
+.material-icons {
+  color: #F55A5A;
+}
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+ 
+.links > a{
+  color: gray;
+}
